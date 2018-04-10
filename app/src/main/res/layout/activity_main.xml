@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FFFFFF"
     tools:context="com.example.android.finalproject_nuojmuyuny.MainActivity">
 
     <TextView
@@ -11,35 +12,41 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:layout_weight="1"
-        android:fontFamily="monospace"
+        android:fontFamily="serif-monospace"
         android:gravity="center_horizontal"
         android:text="BASKET"
-        android:textSize="45sp" />
+        android:textSize="45sp"
+        />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_marginBottom="50dp"
-        android:src="@drawable/eechatt11691" />
+        android:src="@drawable/m11"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal">
-
         <Button
             android:id="@+id/sign_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Sign up"
             android:layout_weight="1"
-            android:background="@color/colorPrimaryDark"
-            android:onClick="signUp"
-            android:text="Sign innnnnmmmjjjjn"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
             android:textColor="#FFFFFF"
-            android:textSize="20sp" />
+            android:fontFamily="monospace"
+
+
+
+
+            />
 
     </LinearLayout>
 
