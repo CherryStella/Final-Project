@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class InformationActivity extends AppCompatActivity {
 
@@ -26,6 +27,7 @@ public class InformationActivity extends AppCompatActivity {
     }
 
     public void submit(View view){
+        Toast.makeText(this, "You've created a new account!", Toast.LENGTH_SHORT).show();
         String name = nameText.getText().toString();
         int age = Integer.valueOf(ageText.getText().toString());
         String gender  = genderText.getText().toString();

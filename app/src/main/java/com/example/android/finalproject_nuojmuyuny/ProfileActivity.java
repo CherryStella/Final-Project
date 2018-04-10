@@ -3,6 +3,7 @@ package com.example.android.finalproject_nuojmuyuny;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class ProfileActivity extends AppCompatActivity {
@@ -30,5 +31,9 @@ public class ProfileActivity extends AppCompatActivity {
         genderContent.setText("Gender: " + showGender);
         heightContent.setText("Height(cm): " + showHeight);
         weightContent.setText("Weight(kg): " + showWeight);
+    }
+    public void news(View view){
+        Intent newsIntent = new Intent(this,NewsActivity.class);
+        startActivity(newsIntent);
     }
 }

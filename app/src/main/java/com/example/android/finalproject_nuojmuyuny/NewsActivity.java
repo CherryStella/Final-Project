@@ -15,7 +15,7 @@ public class NewsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_newsactivity);
+        setContentView(R.layout.activity_news);
         View v = findViewById(R.id.newsactivity);
         v.getBackground().setAlpha(100);
     }
