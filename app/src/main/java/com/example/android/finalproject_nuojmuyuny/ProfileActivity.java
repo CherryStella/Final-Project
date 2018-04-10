@@ -5,17 +5,14 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class ProfileActivity extends AppCompatActivity {
-    TextView nameSpace;
-    TextView ageSpace;
-    TextView genderSpace;
-    TextView heightSpace;
-    TextView weightSpace;
-    TextView calorieSpace;
+    TextView profile;
+    String intial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-        nameSpace = findViewById(R.id.name_enter);
+        profile = findViewById(R.id.information);
+        initial = "";
     }
 }

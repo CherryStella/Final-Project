@@ -42,10 +42,6 @@
             android:layout_marginRight="60dp"
             android:textColor="#FFFFFF"
             android:fontFamily="monospace"
-
-
-
-
             />
 
     </LinearLayout>
