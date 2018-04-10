@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button signUp;
     Button test;
+    Button test2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
