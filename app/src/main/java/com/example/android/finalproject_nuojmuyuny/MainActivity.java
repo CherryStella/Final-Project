@@ -11,9 +11,6 @@ import static com.example.android.finalproject_nuojmuyuny.R.id.sign_up;
 public class MainActivity extends AppCompatActivity {
 
     Button signUp;
-    Button test;
-    Button test2;
-    Button test3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -12,36 +12,41 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:hint="Name" />
+        android:hint="Name"
+        android:id="@+id/name_text"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Age" />
+        android:hint="Age"
+        android:id="@+id/age_text"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Gender" />
+        android:hint="Gender"
+        android:id="@+id/gender_text"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Height" />
+        android:hint="Height(cm)"
+        android:id="@+id/height_text"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Weight" />
+        android:hint="Weight(kg)"
+        android:id="@+id/weight_text"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:text="Submit" />
 </LinearLayout>
