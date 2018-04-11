@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:background="@color/colorPrimaryDark"
-                android:fontFamily="serif-monospace"
+                android:style="@style/basketFont"
                 android:gravity="center_horizontal"
                 android:text="A new way of cooking salmon"
                 android:textSize="18sp"
@@ -47,7 +47,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="25dp"
             android:src="@drawable/news2"/>
 
         <TextView
