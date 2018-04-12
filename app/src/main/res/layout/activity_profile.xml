@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Personal Profile"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="20dp"
         android:textSize="30sp"
         android:id="@+id/information"/>
 
@@ -18,9 +20,10 @@
         android:id="@+id/profileimage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/profileimage"
-        tools:layout_editor_absolureX="133dp"
-        tools:layout_editor_absolureY="147dp" />
+        android:layout_alignEnd="@+id/information"
+        android:layout_alignTop="@+id/information"
+        android:layout_marginEnd="40dp"
+        app:srcCompat="@drawable/profileimage" />
 
     <RelativeLayout
         android:layout_below="@+id/information"
@@ -188,32 +191,49 @@
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="News Feed"
-            android:onClick="news"
-            android:layout_weight="1"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="food planner"
-            android:layout_weight="1"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="food diary"
-            android:layout_weight="1"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/newsicon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/news"
             android:layout_weight="1"
-            android:text="My Profile"/>
+          />
+
+        <Button
+            android:id="@+id/plannericon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/planner"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/diaryicon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/diary"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/meicon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/me" />
 
     </LinearLayout>
 

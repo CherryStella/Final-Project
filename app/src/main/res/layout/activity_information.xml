@@ -18,8 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/translucent"
         android:id="@+id/nameText"
         android:hint="Name" />
 
@@ -27,6 +28,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/translucent"
         android:hint="Age"
         android:id="@+id/ageText"/>
 
@@ -34,6 +38,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/translucent"
         android:hint="Gender(Male/Female):"
         android:id="@+id/genderText" />
 
@@ -41,6 +48,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/translucent"
         android:hint="Height(cm)"
         android:id="@+id/heightText"/>
 
@@ -48,6 +58,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/translucent"
         android:hint="Weight(kg)"
         android:id="@+id/weightText"/>
 
@@ -55,8 +68,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="70dp"
         android:text="Submit"
+        style="@style/button_text"
         android:onClick="submit"/>
 </LinearLayout>
 </ScrollView>

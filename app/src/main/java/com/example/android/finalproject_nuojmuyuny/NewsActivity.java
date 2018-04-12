@@ -17,6 +17,6 @@ public class NewsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
         View v = findViewById(R.id.newsactivity);
-        v.getBackground().setAlpha(100);
+        v.getBackground().setAlpha(200);
     }
 }

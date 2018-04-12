@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.finalproject_nuojmuyuny.PlannerActivity">
+
+    <TextView
+        android:id="@+id/planner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:text="Daily Planner"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/planner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/planner"
+        android:layout_weight="1"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Date:"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/planner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/planner2"
+        android:layout_weight="1"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Vegetable:"
+        android:textSize="20sp"
+        />
+</RelativeLayout>

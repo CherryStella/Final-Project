@@ -23,25 +23,21 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#DDDDDD"
+
             android:orientation="vertical"
             android:id="@+id/newsactivity">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="0dp"
-                android:background="@color/colorPrimaryDark"
-                android:style="@style/basketFont"
+
+                android:fontFamily="serif-monospace"
                 android:gravity="center_horizontal"
                 android:text="A new way of cooking salmon"
                 android:textSize="18sp"
+                android:layout_marginBottom="25dp"
                 android:id="@+id/news1" />
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="1px"
-                android:background="@android:color/darker_gray"
-                android:layout_marginBottom="40dp"/>
+
         </LinearLayout>
 
         <ImageView
@@ -56,14 +52,11 @@
             android:layout_marginTop="0dp"
             android:fontFamily="serif-monospace"
             android:gravity="center_horizontal"
-            android:background="@color/colorPrimaryDark"
+
             android:text="How to choose your fruit"
+
             android:textSize="18sp" />
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1px"
-            android:background="@android:color/darker_gray"
-            android:layout_marginBottom="40dp"/>
+
 
     </LinearLayout>
 
