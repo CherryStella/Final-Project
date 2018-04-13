@@ -8,18 +8,18 @@ import android.widget.Button;
 
 import static com.example.android.finalproject_nuojmuyuny.R.id.sign_up;
 
-public class MainActivity extends AppCompatActivity {
+public class loginActivity extends AppCompatActivity {
 
     Button signUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
     }
 
     public void signUp(View view) {
-        signUp = findViewById(sign_up);
+        signUp = findViewById(R.id.sign_up);
         Intent newIntent;
         newIntent = new Intent(this, InformationActivity.class);
         startActivity(newIntent);

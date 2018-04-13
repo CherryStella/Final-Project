@@ -36,13 +36,6 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:text="Name:" />-->
-
             <TextView
                 android:id="@+id/name_enter"
                 android:layout_width="wrap_content"
@@ -62,13 +55,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
-            <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:text="Age:" />-->
 
             <TextView
                 android:id="@+id/age_enter"
@@ -90,13 +76,6 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:text="Gender:" />-->
-
             <TextView
                 android:id="@+id/gender_enter"
                 android:layout_width="wrap_content"
@@ -116,13 +95,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
-            <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:text="Height:" />-->
 
             <TextView
                 android:id="@+id/height_enter"
@@ -144,13 +116,6 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:text="Weight:" />-->
-
             <TextView
                 android:id="@+id/weight_enter"
                 android:layout_width="wrap_content"
@@ -170,13 +135,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
-            <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:text="Recommended calories per day:" />-->
 
             <TextView
                 android:id="@+id/calorie_enter"
