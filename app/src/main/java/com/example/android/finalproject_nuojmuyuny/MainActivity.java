@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_me:
-                    mTextMessage.setText("Me");
+                    mTextMessage.setText("ME");
                     return true;
                 case R.id.navigation_foodPlan:
                     mTextMessage.setText("Plan");
