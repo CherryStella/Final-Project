@@ -21,6 +21,9 @@
         <activity android:name=".NewsActivity" />
         <activity android:name=".PlannerActivity" />
         <activity android:name=".DiaryActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"></activity>
     </application>
 
 </manifest>

@@ -34,7 +34,7 @@ public class InformationActivity extends AppCompatActivity {
         double height = Double.valueOf(heightText.getText().toString());
         double weight = Double.valueOf(weightText.getText().toString());
         Profile personProfile = new Profile(name,age,gender,height,weight);
-        Intent personIntent = new Intent(this,ProfileActivity.class);
+        Intent personIntent = new Intent(this,MainActivity.class);
         personIntent.putExtra(Keys.PERSON,personProfile);
         startActivity(personIntent);
     }
