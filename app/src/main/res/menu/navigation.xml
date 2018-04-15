@@ -5,7 +5,7 @@
     <item
         android:id="@+id/navigation_me"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="Me"
+        android:title="ME"
         app:showAsAction="always"/>
 
     <item
